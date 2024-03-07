@@ -5,13 +5,7 @@
     border: 1px solid rgba(86, 61, 124, .2);
   }
 
-  .themed-container {
-    padding: .75rem;
-    margin-bottom: 1.5rem;
-    background-color: rgba(165, 42, 42, 0.8);
-    border: 1px solid rgb(165, 42, 42);
-    color: white;
-  }
+  
   
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
@@ -30,6 +24,11 @@ No media query for `xs` since this is the default in Bootstrap */
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
-
+  .themed-container {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(4, 190, 180, 0.812);
+    border: 1px solid rgb(165, 42, 161);
+  }
   
 }
